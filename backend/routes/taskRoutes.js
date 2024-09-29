@@ -6,7 +6,7 @@ const {
   updateTask,
   addComment,
   deleteTask
-} = require('../controllers/taskController');
+} = require('../controllers/taskController.js');
 const router = express.Router();
 
 router.get('/', getTasks);
