@@ -3,6 +3,7 @@
 
 # Ignore build files in frontend (React)
 **/build/
+backend/public
 
 **/*.log
 **/npm-debug.log*
